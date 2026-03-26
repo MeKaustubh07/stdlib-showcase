@@ -1,5 +1,5 @@
 import './style.css';
-import { initGemv } from './sections/gemv.js';
+import { initDgemm } from './sections/dgemm.js';
 import { initRotation } from './sections/rotation.js';
 import { initVectors } from './sections/vectors.js';
 
@@ -17,6 +17,6 @@ tabBtns.forEach(btn => {
 });
 
 // Initialize all sections
-initGemv(document.getElementById('section-gemv'));
+initDgemm(document.getElementById('section-dgemm'));
 initRotation(document.getElementById('section-rotation'));
 initVectors(document.getElementById('section-vectors'));
